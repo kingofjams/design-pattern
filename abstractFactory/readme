@@ -1,0 +1,20 @@
+车工厂
+有两款汽车benz,bmw
+汽车分为两厢和三厢
+汽车参数 price,horsepower
+
+
+IParameter
+IHatchback
+ISedan
+BenzHatchback
+BenzSedan
+BmwHatchback
+BmwSedan
+ICarFactory
+CarFactoryBenz
+CarFactoryBmw
+IAbstractFactory
+AbstractFactory
+
+获取配置文件加载工厂实例
