@@ -1,7 +1,7 @@
-from abstractFactory.IHatchback import IHatchback
+from iParameter import IParameter
 
 
-class BenzHatchback(IHatchback):
+class BenzHatchback(IParameter):
     def price(self):
         print('is a BenzHatchback.price')
         return 20000000

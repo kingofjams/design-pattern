@@ -1,6 +1,6 @@
-from abstractFactory.ICarFactory import ICarFactory
-from abstractFactory.BenzHatchback import BenzHatchback
-from abstractFactory.BenzSedan import BenzSedan
+from iCarFactory import ICarFactory
+from benzHatchback import BenzHatchback
+from benzSedan import BenzSedan
 
 
 class CarFactoryBenz(ICarFactory):

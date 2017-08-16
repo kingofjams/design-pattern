@@ -5,8 +5,6 @@
 
 
 IParameter
-IHatchback
-ISedan
 BenzHatchback
 BenzSedan
 BmwHatchback

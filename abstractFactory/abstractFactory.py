@@ -1,6 +1,6 @@
-from abstractFactory.IAbstractFactory import IAbstractFactory
-from abstractFactory.CarFactoryBenz import CarFactoryBenz
-from abstractFactory.CarFactoryBmw import CarFactoryBmw
+from iAbstractFactory import IAbstractFactory
+from carFactoryBenz import CarFactoryBenz
+from carFactoryBmw import CarFactoryBmw
 
 
 class AbstractFactory(IAbstractFactory):

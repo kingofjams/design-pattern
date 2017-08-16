@@ -1,7 +1,7 @@
-from abstractFactory.ISedan import ISedan
+from iParameter import IParameter
 
 
-class BmwSedan(ISedan):
+class BmwSedan(IParameter):
     def price(self):
         print('is a BmwSedan.price')
         return 35000000
