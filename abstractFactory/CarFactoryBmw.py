@@ -3,7 +3,7 @@ from abstractFactory.BmwHatchback import BmwHatchback
 from abstractFactory.BmwSedan import BmwSedan
 
 
-class CarFactoryBenz(ICarFactory):
+class CarFactoryBmw(ICarFactory):
     def create_hatchback(self):
         return BmwHatchback()
 

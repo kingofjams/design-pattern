@@ -1,12 +1,14 @@
 from abstractFactory.IAbstractFactory import IAbstractFactory
-from abstractFactory.XmlHandler import XmlHandler
+from abstractFactory.CarFactoryBenz import CarFactoryBenz
+from abstractFactory.CarFactoryBmw import CarFactoryBmw
 
 
 class AbstractFactory(IAbstractFactory):
+    def create_benz_factory(self):
+        return CarFactoryBenz()
 
-    xml =
-
-    def create_factory(self, type, name):
+    def create_bmw_factory(self):
+        return CarFactoryBmw()
 
 
 

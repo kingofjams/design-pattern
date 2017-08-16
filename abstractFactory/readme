@@ -17,4 +17,3 @@ CarFactoryBmw
 IAbstractFactory
 AbstractFactory
 
-获取配置文件加载工厂实例
