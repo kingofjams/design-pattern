@@ -1,0 +1,17 @@
+客户支付了订单款项，
+这时财务需要开具发票，
+出纳需要记账，
+配送员需要配货。
+
+
+
+IObserver
+ISubject
+OrderSubject
+AccountingObserver
+CashierObserver
+DispatchingObserver
+
+我是会计，我来开具发票。
+我是出纳员，我给登记入账。
+我是配送员，我来发货。
